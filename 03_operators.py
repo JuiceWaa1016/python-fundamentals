@@ -36,6 +36,19 @@ overAll_cost = total_notebook_cost + total_pen_cost
 is_within_budget = overAll_cost <= budget
 print("Is the overall cost within the budget? ", is_within_budget)
 
+#4. Logical Operators (Combining Multiple Conditions)
+notebook_available = True
+pen_available = True
+is_ready_for_school = notebook_available and pen_available
+print("Is the student ready for school?", is_ready_for_school)
+missing_items = (not notebook_available) or (not pen_available)
+print("Is the student missing any items", missing_items)
+not_complete = not is_ready_for_school
+print("Is the student not ready for school?", not_complete)
+
+
+
+
 
 
 
